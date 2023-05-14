@@ -1,4 +1,6 @@
 # yarn berry(2.x, 3.x, 4.x) workspace 
+모노레포 
+- 바벨
 
 
 ## 실습환경 셋팅
@@ -184,6 +186,7 @@ yarn dlx @yarnpkg/sdks vscode
 ## 7. pacakges/lib 공통 패키지를 만들어보기
 
 `packages/lib` 폴더 생성하고, 아래 스크립트를 실행한다.
+공통으로 사용할 함수를 만들수 있다.
 
 ```shell
 // lib 폴더 이동
